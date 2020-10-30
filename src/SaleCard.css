@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap");
+
+.SaleCard {
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  background-color: white;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.saleCard_image {
+  justify-content: center;
+  object-fit: contain;
+  padding: 5px;
+}
+
+.pricetag {
+  font-weight: 800;
+  margin: 9px 0px;
+  font-size: 1.1rem;
+  padding-left: 4px;
+}
+
+.description_div {
+  display: flex;
+  height: 100px;
+  padding-left: 4px;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 1.1rem;
+  justify-content: center;
+  flex: 1;
+}
+
+.rating {
+  margin-bottom: 9px;
+  padding: 5px;
+  padding-left: 4px;
+  display: flex;
+  flex-direction: row;
+}
+
+.saleCard_button {
+  width: 100%;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: #eaa954;
+  margin-bottom: 5px;
+}
+.saleCard_button:hover {
+  font-size: 1.24rem;
+}

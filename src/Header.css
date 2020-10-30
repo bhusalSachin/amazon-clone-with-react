@@ -1,0 +1,94 @@
+/* For whole header section */
+.header {
+  height: 90px;
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* for amazon logo */
+.image {
+  width: 190px;
+}
+
+.header_png {
+  width: 110px;
+  padding: 1px 13px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+  object-fit: contain;
+}
+.image:hover {
+  border: 2px white solid;
+}
+
+/* for search box in header */
+
+.header_search {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.header_search_input {
+  width: 100%;
+  height: 25px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.header_search_icon {
+  background-color: #f3a847;
+  padding: 5px;
+  height: 28px !important;
+  border-radius: 5px;
+}
+.header_search_icon:hover {
+  background-color: #fe9800;
+}
+
+/* finishing header section */
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 1px 10px;
+}
+
+.header_option:hover {
+  border: 2px white solid;
+  border-radius: 7px;
+}
+
+.header_optionOne {
+  font-size: 15px;
+}
+
+.header_optionTwo {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* ShoppingBasket */
+.header_basket {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+  margin: 0px 10px;
+}
+
+.header_basket:hover {
+  border: 2px white solid;
+  border-radius: 10px;
+}

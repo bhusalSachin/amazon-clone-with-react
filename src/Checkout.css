@@ -1,0 +1,21 @@
+.CheckoutPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 14px;
+}
+
+.basketList > h2 {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 2rem;
+}
+
+.checkout_left > img {
+  width: 100%;
+}
+
+/* .checkout_right {
+  justify-content: flex-end;
+} */

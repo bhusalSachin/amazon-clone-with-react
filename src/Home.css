@@ -1,0 +1,46 @@
+.home {
+  background-color: #eaeded;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.home_image {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+  z-index: -1;
+  margin-bottom: -550px;
+}
+
+.rowOneContainer {
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+}
+
+.rowTwoContainer {
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+}
+
+.salesContainer_image {
+  width: 100%;
+}
+
+.salesContainer_rowOne {
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+  /* background-color: white; */
+}
+.salesContainer_rowTwo {
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+  /* background-color: white; */
+}
+.salesContainer_rowThree {
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+  /* background-color: white; */
+}

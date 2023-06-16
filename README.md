@@ -1,4 +1,4 @@
-#INTRODUCTION
+##INTRODUCTION
 
 Welcome to Amazify, an extraordinary eCommerce platform that brings the world of online shopping right to your fingertips. With its stunning resemblance to the renowned Amazon.com, Amazify offers an immersive shopping experience that will leave you captivated.
 
